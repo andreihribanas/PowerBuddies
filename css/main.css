@@ -1,0 +1,1239 @@
+
+/* Get rid of defaults*/
+*{ /* Selects everything on the webpage*/
+	margin:0em;
+	padding:0em;
+}
+
+/*********************************** START BODY STYLING *************************************/
+
+body{
+	font-family:sans-serif;
+	width:100em;
+}
+
+/******************************** END BODY STYLING *****************************************/
+
+/* Centering the webpage */
+#center_page{
+	width:80em; 
+	 margin:0em auto;*/ /* centers the web page*/
+	
+}
+
+
+/* Start header styling */
+#page_header{
+	/* border:0.125em solid blue; */
+	text-align:left;
+	margin:0.625em 0.625em 0.625em 1.25em;
+	width:97%;
+	height:auto;
+	float:left;
+	background:#3C9D42; 
+}
+
+.logo{
+	/* border:0.125em solid teal; */
+	margin:0em;
+	width:20%;
+	height:11em;
+	float:left;
+}
+
+	.logo_image{
+		display:inline;
+		vertical-align:middle;
+		width:100%;
+		height:100%;
+
+	}
+
+
+.slogan{
+	/* border:0.125em solid blue; */
+	margin:2em 2em;
+	padding:0em;
+	width:50%;
+	float:left;
+	text-align:center;
+	
+}	
+
+	.power_text{
+		/* color:blue; */
+	}
+	
+	.buddies_text{
+		color:#FADF0F;
+	}
+	
+	.slogan_text{
+		font-style:italic;
+		color:orange;
+	}
+	
+	.header_text{
+		display:inline;
+		color:#F7750A; /* orange */
+		font-size:2.2em;
+		width:100%;
+		color:white;
+		font-weight:bold;
+	}
+		
+		.sub_header_text{
+			/* color:#0D935A; */ /* green 1*/
+			/* color:#1AB976; */  /* green 2 */
+			/*color:#03A25F;*/ /* green 3 */
+			display:inline;
+			text-align:right;
+			font-size:1.5em;
+			font-weight:bold;
+			/* color:#1AFF27; */
+			color:#FADF0F;
+		}
+
+		.login_logo{
+			 float:left;
+			width:1.875em;
+			height:1.875em;
+			margin:0em;
+			padding:0em;
+		}
+		
+		.basket_logo{
+			float:left;
+			width:1.875em;
+			height:1.875em;
+margin:0em;
+			padding:0em;
+		}
+		
+.login_basket_buttons{
+
+	/* border:0.125em solid orange; */
+	margin:0em 0em 0em 0em;
+	padding:0em;
+	width:10em;
+	float:right;
+	font-size:0.8em;
+}
+		
+	.btn_login, .btn_register{
+		clear:both;
+		float:left;
+		margin:0em 0em 0em 0em;
+		font-size:0.8em;
+		padding:0.3125em;
+
+		white-space: pre-wrap;       /* css-3 */
+		white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		white-space: -pre-wrap;      /* Opera 4-6 */
+		white-space: -o-pre-wrap;    /* Opera 7 */
+		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		word-wrap: break-word;
+		width:10em;
+	height:2.5em;
+		background: #0095cd;
+		color:white;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 0.3125em 0.3125em;
+		border-bottom-right-radius: 0.3125em 0.3125em;
+	}
+
+		.btn_login, .btn_register:hover {
+			text-decoration: none;
+			background: #007ead;
+			background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+			background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+		}
+
+	.btn_basket{
+		margin:0em 0em 0em 0em;
+		font-size:0.8em;
+clear:both;
+		white-space: pre-wrap;       /* css-3 */
+		white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		white-space: -pre-wrap;      /* Opera 4-6 */
+		white-space: -o-pre-wrap;    /* Opera 7 */
+		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+width:10em;
+height:2.5em;
+		float:left;
+		padding:0.3125em;
+		color:white;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 0.3125em 0.3125em;
+		border-bottom-right-radius: 0.3125em 0.3125em;
+	}
+		.btn_basket:hover {
+			text-decoration: none;
+			background: #007ead;
+			background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+			background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+		}
+
+/* End of the header styling */
+
+
+
+/* Start top navigation bar (top menu) & search bar */
+
+#top_nav{
+	/* border:0.125em solid orange; */
+	padding:0.75em 0em; /* 1.25em on each side added to the width*/
+	margin:0.625em 0em 0.625em 1.5em; /* top right bottom left 0.625em width*/
+	width:97%;
+	background:#FADF0F;
+	float:left; 
+	font-size:0.8em;
+}
+
+.navButton {
+	//	margin: 0.3125em 0em 0em 0.3125em;
+		//padding: 0.3125em 0.625em;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:0.8em;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		float:left; 
+		text-decoration: none;
+		color: #ffffff;
+		/* border: solid 1px #0076a3;  */
+		border-right:0em;
+	/*	background: #0095cd; */
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 0.3125em 0.3125em;
+		border-bottom-right-radius: 0.3125em 0.3125em;
+	}
+
+	.navButton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+		background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+	}
+	/* Fixes submit button height problem in Firefox */
+	.navButton::-moz-focus-inner {
+	  border: 0;
+	}
+
+/* End top navigation bar (menu) styling */
+
+
+
+/* Start search bar styling*/
+#search_bar{
+	padding:0.3125em; 
+	 /* border:0.125em solid blue; */
+	border-radius:0.625em;
+	margin:0.625em 0.3125em 0.3125em 0.625em;
+	text-align:left;
+	float:right;
+	width:20em;
+	font-size:0.8em;
+
+}
+
+	
+	.tftextinput{
+		margin: 0.3125em 0em;
+		/* padding: 0.3125em 10.3125em; */
+		padding: 0.3125em 0em;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:0.8em;
+		/* border:1px solid #0076a3; */
+		border-right:0em;
+		border-top-left-radius: 0.625em 0.625em;
+		border-bottom-left-radius: 0.625em 0.625em;
+		width:20%;
+		float:right;
+	}
+	.tfbutton {
+		margin: 0.3125em 0em;
+		margin-right:0.625em;
+		padding: 0.3125em 0.3125em;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:0.8em;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		/* border: solid 1px #0076a3;  */
+		border-right:0em;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 0.3125em 0.3125em;
+		border-bottom-right-radius: 0.3125em 0.3125em;
+		float:right;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+		background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	
+
+/* End search bar styling */
+
+
+/* Start the section styling */
+#page_section{
+	 border:0.125em solid black; 
+	clear:both;
+	float:left;
+	margin:0.625em 0em 0.625em 1.25em; 
+	padding:0.625em 0em; 
+	width:97%;
+	font-family:"Times New Roman";
+	word-wrap:break-word;
+	/* background-color:; * /
+}
+
+	.slideshow{
+		/* border:0.1em solid blue; */
+		
+
+	}
+	
+
+        .home_picture{
+                margin-left:0.3125em;
+                margin-right:0.3125em;
+                width:23%;
+                height:15em;
+        }
+
+	.home_USP{
+		border:0.1em solid green;
+		margin:0.625em auto;
+		font-size:0.8em;
+		text-align:justify;
+		width:98%;
+		background:#3C9D42;
+	}
+	
+        .home_USP_text{
+                padding:1.25em;
+                font-size:1.3em;
+                text-indent:2.5em;
+                line-height:1.8em;
+                color:white;
+        }
+  
+/* End section styling */
+
+
+
+/* Start footer styling */
+
+/* Start bottom navigation bar - menu (navigation) */
+	#page_footer{
+
+		padding:0.625em 0em;
+		/* border:0.125em solid orange;  */
+		margin:0.625em 0em 0.625em 1.5em;
+		width:97%;
+		text-align:left;
+		font-size:0.8em;
+		float:left;
+		background:#FADF0F;
+	}
+
+		#bottom_nav{
+                    width:70%;
+                    float:left;			
+                    margin: 0.3125em 0em 0em 0em;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size:1.2em;
+                    outline: none;
+                    cursor: pointer;
+                    text-align: center;
+		}
+
+/* End top navigation bar (menu) styling */
+
+
+
+/* Start the social networking buttons styling*/
+		#social_networking_block{
+			margin:0em 0em 0em 0em;
+			padding:0em;
+			/* border:0.125em solid blue; */
+			width:20em;
+			float:right;
+			text-align:center;
+		}
+
+
+	#message_text{
+		margin:0em;
+		padding-top:0.3125em;
+		padding-bottom:0em;
+		 color: green;
+		font-size:0.9em;
+	}
+
+	#social_button{
+		padding:0em;
+		width:1.875em;
+		height:1.875em;
+	}
+
+/* End the social networking buttons styling*/
+
+
+#copywright{
+	/* border:0.125em solid red; */
+	margin:0.625em 0em 0.625em 1.25em;
+	padding:0.625em 0em;
+	clear:both;
+	text-align:center;
+	font-weight:bold;
+	background:#3C9D42;
+	color:#212121;
+	width:97%;
+}
+/* End footer styling */
+
+
+/******************************************  START ABOUT US PAGE STYLING ****************************************/
+
+.about_menu_news{
+		/* border:0.125em solid red; */
+	font-size:0.8em;
+	margin:0.625em;
+	padding:0.625em;
+	width:20%;
+	/* clear:both; */
+	float:left;
+	text-align:justify;
+}
+
+
+.about_menu{
+	border:0.1em solid white;
+	margin:0.625em;
+	padding:0.625em;
+	background:#3C9D42;
+	color:white;
+}
+	
+	.about_menu_header{
+		list-style-type:none;
+		font-size:1.5em;
+		font-weight:bold;
+		text-decoration:none;
+	}
+
+	.about_menu_item{
+		list-style-type:none;
+		margin-left:1.5em;
+		text-decoration:none;
+		color:white;
+		font-size:1.1em;
+	}
+	
+		.about_menu_subitem{
+			list-style-type:none;
+			margin-left:2.5em;
+			text-decoration:none;
+			color:white;
+				font-size:1.1em;
+		}
+	
+	.about_menu_item:hover{
+		color:#FADF0F;
+		text-decoration:none;
+	}
+		
+		.about_menu_item:active{
+			
+		}
+		
+	.about_menu_subitem:hover{
+		color:#FADF0F;
+		text-decoration:none;
+	}
+	
+		#company_info, #mission, #values, #policy, #equal_opportunities_policy, #environmental_policy{
+			font-size:1.2em;
+			font-weight:bold;
+			background:#3C9D42;
+			color:white;
+			
+		}
+		
+		#list_item{
+			 list-style-type:square;
+			 margin-left:2em;
+		}
+		
+.enews_area{
+	/* border:0.1em solid red; */
+	margin:0.7em;
+	padding:0.625em;
+	width:14em;
+	float:left;
+	background:#3C9D42;
+}
+
+	.enews_title{
+		padding:0.3215em;
+		font-weight:bold;
+		font-size:1.2em;
+		color:white;
+	}
+
+		.enews_form{
+			/* border:0.1em solid yellow; */
+			margin:0.625em auto;
+			padding:0.25em 0em 0.25em 0.25em;
+			width:13em;
+			background:#FADF0F;
+		}
+		
+			.btn_enews_submit{
+				margin: 0.625em 0em .3215em 3em;
+				padding:0.3125em;
+			}
+	
+		.enews_name, .enews_email{
+			font-size:1em;
+			font-weight:bold;
+			margin:.3215em .3215em;
+			color:#212121;
+		}
+		
+		#input_enews_name, #input_enews_mail{
+			width:80%
+		}
+
+.about_section{
+	/* border:0.125em solid blue; */
+	font-size:0.8em;
+	margin:0.625em;
+	padding:0.625em;
+	width:50%;
+	
+	float:left;
+	text-align:justify;
+}
+
+.about_text_indent{
+	text-indent:2.5em;
+}
+
+.about_details{
+	/* border:0.125em solid yellow; */
+	font-size:0.8em;
+	margin:0.625em;
+	padding:0.625em;
+	width:20%;
+	float:left;
+	text-align:justify;
+	background:#3C9D42;
+	color:white;
+	font-size:0.8em;
+}
+
+	.about_details_title{
+		font-size:1.5em;
+		font-weight:bold;
+	}
+
+		.about_details_field{
+			margin-left:1.5em;
+		}
+		
+/******************************************   END ABOUT US PAGE STYLING ****************************************/
+
+
+
+
+
+
+/******************************************   START PRODUCTS PAGE  STYLING ***************************************************/
+
+#product_image{
+	clear:both;
+	/* border:0.125em solid teal; */
+	margin:0.75em 0em 1.875em 0em;
+	float:left;
+	width:28%;
+	height:49%;
+	font-size:1em;
+	text-align:justify;
+}
+	
+	.product_main_picture{
+		border:0.1em solid black;
+		margin-left:0.8em;
+		width:20em;
+		height:18em;
+	}
+
+#product_multiple_images{
+	clear:both;
+	/* border:0.125em solid yellow; */
+	margin:0.625em auto;
+	width:90%;
+	background:#FADF0F;
+}
+
+	#multiple_pic{
+		margin-left:0.375em;
+		margin-top:0.375em;
+		padding:0.25em;
+		width:3.8em;
+		height:3.125em;
+	}
+
+#product_buy{
+	clear:both;
+	/* border:0.125em solid red;	 */
+	margin:0.625em auto;
+	margin-bottom:1em;
+	padding-bottom:0.625em;
+	width:90%;
+	word-wrap:break-word;
+	text-align:center;
+	background:#FADF0F;
+}
+
+	#quantity_text{
+		/* border:0.125em solid blue; */
+		float:left;
+		margin-left:0.625em;
+		margin-right:0em;
+		margin-top:1.6875em;
+		color:green;
+		background-color:white;
+	font-size:0.8em;
+		
+	}
+
+	.quantity_input{
+		margin: 1.25em 0em;
+		padding: 0.625em 0.9375em;
+		text-align:center;
+		/* border:0.125em solid green;  */
+		border-right:0em;
+		width:6em;
+		font-size:1em;
+		font-size:0.8em;
+	}
+	
+	.quantity_minus_button{
+		/* border: 0.125em solid green; */
+		border-right:0em; 
+		margin: 1.25em 0em;
+		padding: 0.625em 0.9375em;
+		width:2em;
+		border-top-left-radius: 0.3125em 0.3125em;
+		border-bottom-left-radius: 0.3125em 0.3125em;
+		font-size:0.8em;
+	}
+	
+		.quantity_minus_button:hover{
+			background: #0095cd;
+			background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+			background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		}
+
+	.quantity_plus_button{
+		margin: 1.25em 0em;
+		width:2em;
+		/* border: 0.125em solid green;  */
+		margin: 1.25em 0em;
+		padding: 0.625em 0.9375em;
+		width:2em;
+		border-right:0.125em solid green;
+		border-top-right-radius: 0.3125em 0.3125em;
+		border-bottom-right-radius: 0.3125em 0.3125em;
+		font-size:0.8em;
+	}
+	
+	.quantity_plus_button:hover {
+			text-decoration: none;
+			background: #007ead;
+			background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e)); /*  change hover color chrome*/
+			background: -moz-linear-gradient(top,  #0095cc,  #00678e); /*  change hover color in mozilla firefox*/
+		}
+		/* Fixes submit button height problem in Firefox */
+		.quantity_add:-moz-focus-inner {
+		  border: 0;
+		}
+
+	.add_to_cart_button{
+		clear:both;
+		margin-left:2em;
+		width:15em;
+		font-size:0.8em;
+	}
+
+#product_info{
+
+	float:left;
+	/* border:0.125em solid black; */
+	margin:0.625em 0em 1.875em 0.625em;
+	padding:0.625em;
+	width:40%;
+	text-align:justify;
+/*	background:; */
+
+}
+	#product_description{
+		text-indent:2.5em;
+		font-size:1em;
+	}
+	
+	#product_features{
+		font-weight:bold;
+		font-size:1.1em;
+		text-align:center;
+	}
+	
+		.feature_item{
+			margin-left:1em;
+			list-style-type:square;
+		}
+	
+#product_specs{
+	/* border:0.125em solid green; */
+	float:left;
+	margin:0.625em 0em 1.875em 0.625em;
+	padding:0.625em;
+	text-align:justify;
+	word-wrap:break-word;
+	overflow:auto;
+	width:25%;
+	font-size:1em;
+}
+
+	.product_name, .specs_title{
+		text-align:center;
+		font-weight:bold;
+		font-size:1.5em;
+	}
+	
+	#product_image_title{
+		margin:0.5em 0em 1.875em 0.625em;
+		font-size:1em;
+		font-weight:bold;
+		text-align:center;
+		background:#3C9D42;
+		color:white;
+	}
+
+	#product_info_title, #product_specs_title{
+		text-align:center;
+		background:#3C9D42;
+		color:white;
+	}
+	
+
+#product_specs ul li{
+	padding-left:0.3125em 0em 0.3125em 0em;
+	margin-left:0.625em;
+}
+
+
+#customers_feedback_area{
+	/* border:0.125em solid red; */
+	clear:both;
+	margin:0.625em auto 0.625em auto;
+	width:100%;
+	text-align:center;
+	padding-top:0.625em; padding-bottom:0.625em;
+	background:#3C9D42;
+}	
+
+.btn_new_comment{
+	float:left;
+	margin-left:15em;
+	margin-top:1em;
+	margin-bottom:1em;
+	padding:0.3125em;
+}
+
+.btn_view_comments{
+	float:left;
+	margin-left:30em;
+	margin-top:1em;
+	margin-bottom:1em;
+	padding:0.3125em;
+}
+
+#new_comment_area{
+	/* border:0.125em solid yellow; */
+	margin:0.625em 0.625em 0.625em 0.625em;
+	clear:both;
+	float:left;
+	padding:0.625em;
+	width:45%;
+	height:17em;
+	font-size:0.8em;
+	background-color:green;
+}
+
+		#text_area{
+			margin:1em 0.625em 0em 0.625em;
+			padding:0.625em;
+			width:95%;
+			height:12em;
+			max-width:95%;
+			max-height:12em;
+			padding:0.3125em;
+			text-align:justify;
+			overflow:auto;
+		}
+	
+		#submit_comment{
+			/* border:0.125em solid red;  */
+			clear:both;
+			font-size:0.8em;
+			height:10em;
+		}
+	
+		#cancel_comment{
+
+		}
+
+			.btn_new_comment_submit{
+				/* width:9.375em; */
+				padding:0.625em;
+				margin:0em 0.625em 0.625em 6.25em;
+			}
+		
+				.btn_new_comment_submit:hover{
+					background:blue;
+					background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E));
+				}
+
+			.btn_new_comment_cancel{
+				width:9.375em;
+				padding:0.625em;
+				margin:0em 0.625em 0.625em 6.25em;
+			}
+
+				.btn_new_comment_cancel{
+
+				}
+
+
+#last_comments{
+	/* border:0.125em solid teal; */
+	margin:0.625em 0em 0.625em 0em;
+	float:left;
+	word-wrap:break-word;
+	overflow:auto;
+	background-color:#3C9D42;
+	width:49%;
+	height:18em;
+	font-size:0.8em;
+	color:white;
+}
+	
+	#comment_title{
+		margin:0em 1.25em 0em 0.625em;
+		font-weight:bold;
+		font-size:1em;
+	}
+	
+	#first_comment, #second_comment, #third_comment, #fourth_comment, #fifth_comment{
+		border:1px solid black;
+		border-radius:0.625em;
+		padding:0.625em;
+		margin:0em 1.25em 1.25em 0.625em;
+		overflow:auto;
+		font-size:0.8em;
+		word-wrap:break-word;
+	}
+
+#last_comment_title, #new_comment_title{
+	padding:1.25em;
+	text-align:center;
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+/******************************************   END PRODUCTS PAGE STYLING ****************************************/
+
+
+
+
+
+
+/******************************************   START SPECIAL OFFERS PAGE  STYLING ***************************************************/
+
+/******************************************   END SPECIAL OFFERS PAGE  STYLING ***************************************************/
+
+
+
+
+
+/******************************************   START CUSTOMER SERVICE PAGE  STYLING ***************************************************/
+
+/******************************************   END CUSTOMER SERVICE PAGE  STYLING ***************************************************/
+
+
+
+
+/*******************************************  CCONTACT US PAGE *************************************************/
+#opt{
+/*	color:white;
+	background:yellow; */
+width:90%;
+}
+
+ #contact_callback, #contact_map_form, #contact_informations{
+	float:left;
+	margin: 0.3125em;
+	padding:0.3125em;
+	font-size:0.9em;
+} 
+
+	#contact_callback, #contact_form, #contact_informations{
+		background:#3C9D42;
+		color:white;
+	}
+
+#contact_callback{
+	/* border:0.125em solid blue; */
+	clear:both;
+	width:22%;
+        margin:0.625em auto;
+        padding: 0.325em auto;
+}
+
+#contact_map_form{
+	/* border:0.125em solid yellow; */
+	width:50%;
+}
+	
+	#contact_text{
+		padding:0.625em 0.625em 0.625em 0.625em;
+		text-align:center;
+	}
+
+	#contact_map{
+		/* border:0.125em solid black; */
+		margin:0em auto;
+		width:95%;
+	}
+
+	#contact_form{
+		/* border:0.125em solid red; */
+		margin:0.625em auto;
+		width:95%;
+	}
+		
+		#table_form{
+			width:100%;
+		}
+		
+		
+		#comments{
+			color:red;
+		}
+		
+		table{
+			margin-left:2em;
+			padding:0.625em;
+		}
+		
+			td{ 
+				padding:0.625em;
+				width:0px; 
+				height:1.875em; 
+				
+			}
+
+#contact_informations{
+	width:22%;
+	padding:0.625em;
+}
+	
+	#customerCare_item{
+		margin-left:2.5em;
+		list-style-type:square;
+	}
+
+
+/**********************************************END CONTACT US PAGE STYLING ************************************/
+
+  
+
+/******************************************** REGISTRATION FORM PAGE STYLING ***************************************************************/
+
+#product_table{
+    border:1;
+    text-align: justify;
+    padding: 0.125em;
+}
+
+#table_header{
+    padding: 0.325em;
+    text-align: center;
+}
+
+#registration_form, #login_form{
+    padding: 0.625em;
+    margin: 0.625em;
+    text-align: center;
+    
+    background-color: yellow;
+}
+
+#table_registration_form{
+    text-align: center;
+    right: 50%;
+    bottom: 50%;
+}
+
+/****************************************** END OF LOGIN FORM PAGE STYLING ***********************************************************/
+#login_form{
+    padding: 0.625em;
+    margin: 0.625em;
+    text-align: center;
+    
+    background-color: yellow;
+}
+
+#login_form_title{
+    text-align: center;
+}
+/******************************************** LOGIN FORM PAGE STYLING ***************************************************************/
+#faq_section, #terms_conditions_section, #accesibility_section{
+    padding-left: 1.25em;
+    padding-bottom: 0.625em;
+    padding-right: 1.25em;
+    text-align: justify;
+   
+}
+
+#common_section_title{
+    background-color: green;
+    color:white;
+}
+
+#common_section_content{
+    text-indent: 1.25em;
+}
+
+#common_section_items{
+  text-indent: 1.25em;
+  list-style-position: inside;
+  padding:0.325em;
+}
+
+/******************************************** REGISTRATION FORM PAGE STYLING ***************************************************************/
+
+
+/******************************************   START PRIVACY AND COOKIES PAGE  STYLING ***************************************************/
+
+#careers_central_section{
+    padding:1.25em;
+    margin:1.25em;
+    margin-left: 3.25em;
+    width:90%;
+    color: black;
+}
+
+#careers_paragraphs{
+    padding:0.625em;
+}
+
+#careers_vacancies_title{
+    padding:0.325em;
+    background-color: #3C9D42;
+    color: white;
+}
+
+#careers_vacancies_content{
+    padding:0.325em;
+    text-align: justify;
+    
+}
+
+
+/******************************************   END PRIVACY AND COOKIES PAGE  STYLING ***************************************************/
+
+
+/******************************************   START TERMS AND CONDITIONS PAGE  STYLING ***************************************************/
+/******************************************   END TERMS AND CONDITIONS PAGE  STYLING ***************************************************/
+
+
+/******************************************   START CAREERS PAGE  STYLING ***************************************************/
+/******************************************   END CAREERS PAGE  STYLING ***************************************************/
+
+
+/******************************************   START ACCESIBILITY PAGE  STYLING ***************************************************/
+/******************************************   END ACCESIBILITY PAGE  STYLING ***************************************************/
+
+
+/******************************************   START FAQ PAGE  STYLING ***************************************************/
+/******************************************   END FAQ PAGE  STYLING ***************************************************/
+
+
+
+
+.ContentFlow .flow .item canvas.content{
+	height:20em;
+	width:20em;
+}
+
+.ContentFlow .flow .item.active{
+	cursor:pointer
+	}
+
+.ContentFlow .flow .item .caption{
+	font-size:100%;
+	font-weight:700;
+	text-align:center;
+	color:#FFF;
+	max-height:30%;
+	bottom:10%;
+	background:url(img/1x1_0.5_black.png);
+	width:100%;
+	position:absolute;
+	display:none;
+}* 
+
+html .ContentFlow .flow .item .caption{
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='img/1x1_0.5_black.png');
+}
+
+.ContentFlow .scrollbar{
+	width:50%;
+	height:1em;
+	background:url(img/scrollbar_white.png) left center repeat-x;
+	overflow:visible;
+	position:relative;
+	z-index:1;
+	visibility:hidden;
+	margin:0.625em auto 0;
+}
+
+.ContentFlow .scrollbar .slider{
+	width:1em;
+	height:1em;
+	background:url(img/slider_white.png) center center no-repeat;
+	cursor:move;
+	position:absolute
+}* 
+
+html .ContentFlow .scrollbar .slider{background-image:none}*
+
+html .ContentFlow .scrollbar .slider .virtualSlider{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='imgslider_white.png');
+	height:100%;
+}
+
+.ContentFlow .scrollbar .slider .position{
+	top:120%;
+	font-size:1em;
+	font-weight:700;
+	color:silver;
+	position:absolute;
+	text-align:center;
+}
+
+.ContentFlow .globalCaption{
+	text-align:center;
+	font-weight:700;
+	color:#FFF;
+	font-size:0.875;
+	height:20px;
+	position:relative;
+	z-index:1;
+	margin:2em auto;
+}
+
+.ContentFlow .loadIndicator{
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:#000;
+	position:absolute;
+	z-index:65000;
+}
+
+.ContentFlow .loadIndicator .indicator{
+	background:url(img/loader.gif) center center no-repeat;
+	width:100%;
+	height:100%;
+}* 
+
+html .ContentFlow .loadIndicator .indicator{
+	height:6.25em;
+}
+
+.ContentFlow{
+	position:relative;
+	overflow:auto;
+}
+
+.ContentFlow *{
+	margin:0;
+	padding:0;
+}
+
+.ContentFlow img{-ms-interpolation-mode:bicubic}
+
+.ContentFlow .mouseoverCheckElement{
+	position:absolute;
+	width:0;
+	height:0;
+	left:0;
+	visibility:hidden;
+}
+
+.ContentFlow:hover .mouseoverCheckElement{
+left:0.0625em;
+}
+
+.ContentFlow .flow{
+	position:relative;
+	z-index:0;
+	visibility:hidden;
+	width:100%;
+	margin:0 auto;
+}
+
+.ContentFlow .flow.hidden{
+	visibility:hidden
+}
+
+.ContentFlow .flow .item{
+	position:absolute;
+	visibility:hidden;
+	top:0;
+	left:0;
+}
+
+.ContentFlow .flow .item div.content{
+	width:100%;
+	height:100%;
+}
+
+.ContentFlow .flow .item .label{display:none}
+.ContentFlow .flow .item canvas.reflection{margin-top:-1px}.ContentFlow .flow .item img.content,.ContentFlow .flow .item img.reflection,.ContentFlow .flow .item canvas.reflection{width:100%}
+.ContentFlow .flow .item .caption a,.ContentFlow .flow .item .caption a:link,.ContentFlow .flow .item .caption a:visited,.ContentFlow .flow .item .caption a:active,.ContentFlow .flow .item .caption a:hover,.ContentFlow .globalCaption .caption a,.ContentFlow .globalCaption .caption a:link,.ContentFlow .globalCaption .caption a:visited,.ContentFlow .globalCaption .caption a:active,.ContentFlow .globalCaption .caption a:hover{color:#FFF;font-size:0.8em;font-style:italic;text-decoration:none}.ContentFlow .flow .item .caption a:hover,.ContentFlow .globalCaption .caption a:hover{text-decoration:underline}.ContentFlow .flow .item .content,.ContentFlow .flow .item .reflection{display:block}
+ 

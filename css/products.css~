@@ -1,0 +1,599 @@
+
+/* Get rid of defaults*/
+*{ /* Selects everything on the webpage*/
+	margin:0px;
+	padding:0px;
+}
+
+/* Start body styling */
+body{
+	font-family:sans-serif;
+	/* text-align:center; */
+	/* background-color:white; */
+	width:100%;
+	
+}
+
+	.background_image{
+		
+	}
+/* End body styling*/
+
+/* Centering the webpage*/
+#center_maker{
+	width:80%; 
+	border:2px solid red;
+	margin:0px auto; /* centers the web page*/
+	/* text-align:left; */
+	
+}
+
+
+/* Start header styling */
+#page_header{
+	border:2px solid blue;
+	text-align:left;
+	margin:10px 10px 10px 20px; /* top right bottom left 20px width*/
+	width:95%;
+	float:left;
+}
+.logo{
+	border:2px solid black;
+	margin:0px;
+	width:20%;
+
+	float:left;
+}
+
+	.logo_image{
+		display:inline;
+		vertical-align:middle;
+		/* margin-right:30px; */
+
+	}
+
+.slogan{
+	border:2px solid yellow;
+	margin:5px 10px 5px 30px;
+	padding:20px;
+	width:50%;
+float:left;
+	text-align:center;
+	background-color:white;
+}	
+	
+	.header_text{
+		/* display:inline; */
+		color:#F7750A; /* orange */
+	}
+		
+		.sub_header_text{
+			/* color:#0D935A; */ /* green 1*/
+			/* color:#1AB976; */  /* green 2 */
+			color:#03A25F; /* green 3 */
+			float:right;
+		}
+
+		.login_logo, .basket_logo{
+			float:left;
+		}
+		
+.login_basket_buttons{
+	/* border:2px solid orange; */
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	width:22%;
+	float:right;
+}
+		
+	.btn_login{
+		clear:both;
+		float:left;
+		margin:0px 0px 0px 10px;
+	/* 	width:60px;
+		height:50px; */
+		padding:5px;
+		white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		word-wrap: break-word;
+				background: #0095cd;
+				color:white;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+		.btn_login:hover {
+			text-decoration: none;
+			background: #007ead;
+			background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+			background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+		}
+
+	.btn_basket{
+		margin:px 0px 0px px;
+		/* width:60px;
+		height:50px; */
+				white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		float:left;
+		padding:5px;
+		color:white;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+		.btn_basket:hover {
+			text-decoration: none;
+			background: #007ead;
+			background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+			background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+		}
+
+/* End of the header styling */
+
+/* Start top navigation bar - menu (navigation) */
+.nav_search_section{
+	/* border:2px solid purple; */
+	/* background:#212121; */ /* chocolate brown */
+	/* background:#FADF0F; */
+background:orange;
+	clear:both;
+float:left;
+margin:10px 10px 10px 20px; /* top right bottom left 20px width*/
+	width:95%;
+	
+}
+
+#top_nav{
+	padding:10px; /* 20px on each side added to the width*/
+	/* border:2px solid orange;*/ /* 4px added to the width*/ 
+	margin:10px 10px 10px 10px; /* top right bottom left 10px width*/
+	width:780px;
+	clear:both;
+	float:left;
+}
+
+.navButton {
+		margin: 5px 0px 0px 0px;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		
+		font-size:100%/0.071428571px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; 
+		border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.navButton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+		background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+	}
+	/* Fixes submit button height problem in Firefox */
+	.navButton::-moz-focus-inner {
+	  border: 0;
+	}
+
+/* End top navigation bar (menu) styling */
+
+/* Start search bar styling*/
+#search_bar{
+	padding:5px; /* 20px on each side added to the width*/
+	/* border:2px solid blue; /* 4px added to the width*/ */
+	border-radius:10px;
+	margin:10px 10px 5px 10px; /* top right bottom left 10px width*/
+	text-align:left;
+/* background-color:yellow; */
+	float:right;
+	width:318px;
+}
+
+
+	#tfheader{
+		background-color:red;
+		border-radius:10px;
+		margin:0px;
+		padding:0px;
+		float:left;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:0px; /****************************************/
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+		width:200px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#2D6C51), to(#61CB5C));
+		background: -moz-linear-gradient(top,  #2D6C51,  #61CB5C);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#075A03), to(#238E1E)); /*  change hover color chrome*/
+		background: -moz-linear-gradient(top,  #075A03,  #238E1E); /*  change hover color in mozilla firefox*/
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+/* End search bar styling */
+
+
+/* Start the section styling */
+#page_section{/* total width 640 px*/
+	border:2px solid green; /* 4px to add to the width*/
+	float:left;
+	margin:0px 10px 10px 20px; /* top right bottom left 20px width*/
+	
+	width:93.5%;
+
+	word-wrap:break-word;
+background-color:;
+}
+/* End section styling */
+
+
+
+/* Start footer styling */
+#page_footer{
+	border:2px solid black;
+	clear:both;
+	padding:10px;
+	text-align:center;
+	margin:0px 10px 10px 20px; /* top right bottom left 20px width*/
+	width: 93.5%;
+	/* float:left; */
+}
+/* End footer styling */
+
+/* Start top navigation bar - menu (navigation) */
+#bottom_nav{
+	padding:10px; /* 20px on each side added to the width*/
+	border:2px solid orange; /* 4px added to the width*/
+	margin:10px 10px 10px 10px; /* top right bottom left 20px width*/
+	/* width:1140px; */
+	width:800px;
+	text-align:left;
+	font-size:15px;
+	float:left;
+	
+}
+
+/* End top navigation bar (menu) styling */
+
+/* Start the social networking buttons styling*/
+#social_networking_block{
+	text-align:left;
+	border:2px solid blue;
+	width:305px;
+	float:right;
+	text-align:center;
+	vertical-align:middle;
+display:inline;
+/* background-color:#695f5a; */
+	margin:0px 0px 5px 0px;
+}
+
+#social_message{
+	/* padding-top:2px; */
+	margin-bottom:5px;
+
+}
+
+#message_text{
+	padding-bottom:5px;
+	 color:#F7750A; /* orange */ 
+
+}
+
+#social_facebook{
+	margin-left:5px;
+	margin-right:20px;
+	display:inline;
+	vertical-align:middle;
+
+}
+
+#social_twitter{
+	margin-top:5px;
+	margin-left:50px;
+	display:inline;
+	vertical-align:middle;
+	padding:5px;
+}
+
+#social_other{
+	margin-left:5px;
+	display:inline;
+	vertical-align:middle;
+	padding:5px;
+}
+/* End the social networking buttons styling*/
+
+
+#copywright{
+	border:2px solid green;
+	margin:10px;
+	padding:10px;
+	clear:both;
+	text-align:center;
+	font-weight:bold;
+	background:#FADF0F;
+	color:#212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************MIDDLE SECTION - PRODUCT STYLING*****************************************/
+
+#product_image{
+	border:2px solid red;
+	margin:10px;
+	float:left;
+	width:300px;
+	height:300px;
+}
+
+#product_multiple_images{
+	border:2px solid yellow;
+margin-left:10px;
+position:absolute;
+float:left;
+width:280px;
+height:120px;
+margin-top:330px;
+padding:10px;
+}
+
+#multiple_pic{
+	margin-left:15px;
+	margin-top:6px;
+}
+
+#product_buy{
+	border:2px solid red;
+	padding:10px;
+position:absolute;
+margin-top:490px;
+margin-left:10px;
+width:280px;
+height:130px;
+text-align:center;
+word-wrap:break-word;
+background-color:black;
+}
+
+	#hah{
+		border:2px solid green;
+		float:left;
+	margin-left:10px;
+		margin-right:0px;
+		margin-top:27px;
+		color:green;
+		background-color:white;
+		
+	}
+
+	.quantity_input{
+		margin: 20px 0px 10px 10px;
+		padding: 10px 15px;
+		text-align:center;
+		border:1px solid green; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	float:left;
+		width:100px;
+		height:10px;
+	}
+
+	.quantity_add{
+			margin: 20px 0px 10px 0px;
+	border:1px solid green;
+	float:left;
+			background: #0095cd;
+			background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+			background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+			border-top-right-radius: 5px 5px;
+			border-bottom-right-radius: 5px 5px;
+
+		width:30px;
+		height:30px;
+	}
+
+	.quantity_add:hover {
+			text-decoration: none;
+			background: #007ead;
+
+			background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e)); /*  change hover color chrome*/
+			background: -moz-linear-gradient(top,  #0095cc,  #00678e); /*  change hover color in mozilla firefox*/
+		}
+		/* Fixes submit button height problem in Firefox */
+		.quantity_add:-moz-focus-inner {
+		  border: 0;
+		}
+
+	#add_to_cart_button{
+		clear:both;
+		margin: 5px 5px 5px -10px;
+		padding:10px;
+		text-align:center;
+	}
+
+
+#product_info{
+	border:2px solid black;
+margin:10px 10px 0px 10px;
+
+padding:10px;
+float:left;
+	width:40%;
+
+height:610px;
+text-align:justify;
+word-wrap:break-word;
+overflow:auto;
+}
+	
+#product_specs{
+	border:2px solid green;
+
+margin:10px 10px 0px 10px;
+padding:10px;
+text-align:justify;
+word-wrap:break-word;
+overflow:auto;
+float:left;
+	width:25%;
+height:610px;
+}
+
+	#product_info_title, #product_specs_title{
+		text-align:center;
+		
+	}
+
+#product_specs ul li{
+	padding-left:5px 0px 5px 0px;
+	margin-left:10px;
+}
+
+
+
+#customers_feedback{
+	border:2px solid red;
+	clear:both;
+	float:left;
+	margin:30px 10px 10px 10px;
+	width:1120px;
+	text-align:center;
+	padding-top:10px; padding-bottom:10px;
+	background-color:grey;
+}	
+#new_comment{
+	clear:both;
+}
+
+#new_comment, #last_comments{
+	border:2px solid black;
+	text-align:center;
+	float:left;
+	padding:10px;
+	margin:10px;
+	width:530px;
+}
+
+#product_new_comment{
+	border:2px solid yellow;
+margin:10px 25px 10px 10px;
+padding:0px;
+clear:both;
+float:left;
+
+padding:10px;
+width:520px;
+height:250px;
+word-wrap:break-word;
+overflow:auto;
+background-color:green;
+}
+	#text_area{
+		margin:20px 0px 0px 10px;
+		width:495px;
+		height:215px;
+		max-width:495px;
+		max-height:215px;
+		padding:5px;
+		text-align:justify;
+		overflow:auto;
+	}
+	
+	#submit_comment{
+		border:2px solid white; 
+		clear:both;
+		position:absolute;
+		margin:1075px 0px 0px 100px;
+	}
+
+		.btn_submit_comment{
+			width:150px;
+			height:50px;
+		}
+
+
+#product_comments{
+	border:2px solid teal;
+margin:10px 0px 10px 0px;
+padding:10px;
+float:left;
+
+padding:10px;
+width:540px;
+height:300px;
+word-wrap:break-word;
+overflow:auto;
+background-color:yellow;
+}
+	
+	#first_comment, #second_comment, #third_comment, #fourth_comment, #fifth_comment{
+		border:1px solid black;
+		padding:5px;
+		margin:0px 0px 10px 0px;
+		overflow:scroll;
+	}
+
+
+
