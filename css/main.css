@@ -112,12 +112,17 @@ margin:0em;
 		
 .login_basket_buttons{
 
-	/* border:0.125em solid orange; */
-	margin:0em 0em 0em 0em;
+	/* border:0.125em solid orange;float:right; */
 	padding:0em;
 	width:10em;
-	float:right;
+	
 	font-size:0.8em;
+    position: relative;
+    float: right;
+    display: inline-block;
+    right: 1%;
+    bottom: 20%;
+    vertical-align: bottom;
 }
 		
 	.btn_login, .btn_register{

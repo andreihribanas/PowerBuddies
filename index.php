@@ -117,13 +117,12 @@
 
 			<div class="home_USP">
 					<p class="home_USP_text">
-						The unique selling point of our product is to generate solar energy to be able to charge mobile devices by not only 
-                                                sunlight but also artificial light which we’ve made portable. By offering the posibility to function using artificial 
-                                                light allows consumers to be able to charge their mobile devices practically anywhere. This is particularly useful for 
-                                                our target market as they will not be limited to the area they can charge their phone in. We believe that this is a 
-                                                revolutionary energy source and would become popular within our target markets. With businesses already on the move for 
-                                                new energy sources and students looking for easier, affordable, everyday solutions to save money will allow our business 
-                                                to prosper in our target markets.
+                        Our products are using both solar energy and artificial light to be able to generate power in order to charge mobile devices which we have made portable. By offering the posibility to function using artificial 
+                        light allows consumers to be able to charge their mobile devices practically anywhere. This is particularly useful for 
+                        our target market as they will not be limited to the area they can charge their devices. Our company strongly believes that this 
+                        revolutionary energy source and would become popular within our customers. With the businesses already on the move for 
+                        new energy sources and consumers looking for easier, affordable, everyday solutions to save money will allow our company 
+                        to prosper on the market.
 					</p>
 				</div>
 		
